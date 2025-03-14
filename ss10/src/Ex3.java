@@ -34,13 +34,13 @@ public class Ex3 {
         }
     }
     public static void main(String[] args) {
-        Car car = new Car("Toyota", "Corolla", 2020);
+        Car car = new Car("Mercedes", "S450", 2020);
 
         System.out.println("Make: " + car.getMake());
         System.out.println("Model: " + car.getModel());
         System.out.println("Year: " + car.getYear());
-        car.setMake("Honda");
-        car.setModel("Civic");
+        car.setMake("Porsche");
+        car.setModel("911");
         try {
             car.setYear(2025);
         } catch (IllegalArgumentException e) {
